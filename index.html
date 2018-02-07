@@ -1,28 +1,49 @@
  <!DOCTYPE html>
 <html lang="pl">
 
-    <head>
-        <title>PIERWSZA STRONA</title>
-        <meta charset="UTF-8"/>
-    </head>
+<head>
+    <title>PIERWSZA STRONA</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+    </style>
+    
+</head>
 
 <body>
-    <h1>Dzień dobry</h1> 
+    <a href="index.html">index</a><br/>
+    <a href="index.html#first">first</a><br/>
+    <a href="index.html#second">second</a><br/>
+    <a href="index.html#third">third</a><br/>
+    
+    
+    <h1 id="h1" class="header">Dzień dobry</h1> 
     <h2>Dzień dobry</h2>
-    <h3>Dzień dobry</h3>
+    <h3 class="bigText">Dzień dobry</h3>
     <h4>Dzień dobry</h4>
-    <h5>Dzień dobry</h5>
+    <h5 class="header">Dzień dobry</h5>
     <h6>Dzień dobry</h6>
+    <h1 class="header">aaaa</h1>
 <br/>
 <br/>
 <br/>
     <hr/>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis lorem ex. Mauris lacinia lacus at urna hendrerit, a sollicitudin libero commodo. Curabitur ac urna nec velit luctus commodo in eu ligula. Nunc et dolor sit amet mi condimentum ullamcorper. Donec sapien arcu, tristique sed orci vel, molestie consectetur est. Nullam feugiat ut lectus vitae ornare. Phasellus ornare interdum leo, a imperdiet massa eleifend in. Proin quis ante augue. Donec commodo dapibus fermentum. Mauris ut mattis quam. Vivamus scelerisque efficitur mi. Nullam quis ipsum id neque interdum congue. </p>
+<div class="parentDiv">
+<div class="div1">
+    asdadsafdssfsf
+    </div>
+    </div>
+    <p id="first"class="bigText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis lorem ex. Mauris lacinia lacus at urna hendrerit, a sollicitudin libero commodo. Curabitur ac urna nec velit luctus commodo in eu ligula. Nunc et dolor sit amet mi condimentum ullamcorper. Donec sapien arcu, tristique sed orci vel, molestie consectetur est. Nullam feugiat ut lectus vitae ornare. Phasellus ornare interdum leo, a imperdiet massa eleifend in. Proin quis ante augue. Donec commodo dapibus fermentum. Mauris ut mattis quam. Vivamus scelerisque efficitur mi. Nullam quis ipsum id neque interdum congue. </p>
+    <a href="index.html">up</a>
 
-    <p>Morbi porta nec quam vitae aliquet. Vivamus blandit nunc a ipsum interdum tempus ut ac risus. Quisque dolor urna, finibus eu laoreet ut, gravida sed leo. Nam consectetur velit rutrum, porttitor purus non, pellentesque nisi. Aenean non ante magna. Sed id nisl sed purus accumsan commodo. Nulla in nunc sit amet urna commodo rhoncus. </p>
+    <p id="second" style="color: chocolate" class="textCenter">Morbi porta nec quam vitae aliquet. Vivamus blandit nunc a ipsum interdum tempus ut ac risus. Quisque dolor urna, finibus eu laoreet ut, gravida sed leo. Nam consectetur velit rutrum, porttitor purus non, pellentesque nisi. Aenean non ante magna. Sed id nisl sed purus accumsan commodo. Nulla in nunc sit amet urna commodo rhoncus. </p>
+    <a href="index.html">up</a>
+    
+    <p id="third">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis lorem ex. Mauris lacinia lacus at urna hendrerit, a sollicitudin libero commodo. Curabitur ac urna nec velit luctus commodo in eu ligula. Nunc et dolor sit amet mi condimentum ullamcorper. Donec sapien arcu, tristique sed orci vel, molestie consectetur est. Nullam feugiat ut lectus vitae ornare. Phasellus ornare interdum leo, a imperdiet massa eleifend in. Proin quis ante augue. Donec commodo dapibus fermentum. Mauris ut mattis quam. Vivamus scelerisque efficitur mi. Nullam quis ipsum id neque interdum congue. </p>
+    <a href="index.html">up</a>
     
     
-    <ul>
+    <ul class="list">
         <li>jeden
             <ul>
                 <li>jeden
@@ -58,7 +79,7 @@
         <li>trzy</li>
     </ol>
     
-<table border="1">
+<table>
     <caption>tabelka pierwsza</caption>
     <thead>
         <tr>
@@ -93,7 +114,7 @@
     <sup>sup</sup>
     
     <br/>
-    <img src="image/lorem.jpg" alt="obrazek" width="500" height="200"/>
+    <img id="image" src="image/lorem.jpg" alt="obrazek"/>
     <br/>
     <a target="_blank" href="http://www.google.pl">google</a>
     <a target="_self" href="about.html">about</a>

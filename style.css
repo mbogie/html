@@ -1,0 +1,131 @@
+h1{
+    color: bisque;
+}
+
+p{
+    color: green;
+}
+
+.header{
+    color: red;
+}
+
+.bigText {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: monospace;
+    font-style: italic;
+    line-height: 2;
+    background-color: lightblue;
+    
+    width: 500px;
+    height: 500px;
+    overflow: auto;
+    
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.div1{
+    border: 10px groove red;
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: aqua;
+    margin-left: 200px;
+    
+}
+.parentDiv{
+    width: 500px;
+    height: 500px;
+    background-color: rebeccapurple;
+    padding-top: 50px;
+    
+}
+
+.list{
+    list-style-type: none;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    color: antiquewhite;
+    font-weight: bold;
+    background-color: gray;
+}
+
+td{
+    padding: 10px;
+}
+
+table,th,td {
+    border: 2px solid green;
+}
+
+a{
+    font-size: 30px;
+    color: yellowgreen;
+    text-decoration:none;
+}
+a:link{
+    
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: salmon;
+    font-family: monospace;
+    text-decoration: overline;
+}
+a:active{
+    
+}
+
+#image{
+    width: 500px;
+    height: 500px;
+    cursor: cell;
+}
+#image:hover{
+    filter: grayscale(80%);
+}
+
+.header{
+    background-color: yellow;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    padding-top: 50px;
+    
+}
+
+.header_text{
+    text-align: center;
+    display: block;
+    margin-top: 100px;
+}
+
+.container{
+    width: 100%;
+    height: 300px;
+    background-color: cyan;
+}
+
+.one{
+    background-color: red;
+    width: 30%;
+    float: left
+}
+
+.two{
+    background-color: green;
+    width: 70%;
+    float: right;
+}
